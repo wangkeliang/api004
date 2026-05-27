@@ -1,0 +1,10 @@
+{
+  "main": "api004.raml",
+  "name": "api004",
+  "groupId": "87323abf-3194-4b86-a723-95b57433db9b",
+  "assetId": "api004",
+  "version": "1.0.0",
+  "classifier": "raml",
+  "tags": [],
+  "descriptorVersion": "1.0.0"
+}
