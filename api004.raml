@@ -1,2 +1,38 @@
 #%RAML 1.0
-title: api004
+title: mdodule api summary12
+baseUri: /api
+mediaType:
+  - application/json
+protocols:
+  - HTTP
+  - HTTPS
+/flights:
+  get:
+    queryParameters:
+      toairport:
+        example: Example
+        type: string
+      flightcompany?:
+        example: Example
+        type: string
+    responses:
+      "200":
+        body:
+          application/json:
+            properties:
+              fromairport?:
+                example: Example
+                type: string
+              toairport?:
+                example: Example
+                type: string
+              flightcompany?:
+                example: Example
+                type: string
+              flightnumber?:
+                example: Example
+                type: string
+              flightprice?:
+                example: Example
+                type: string
+    displayName: aaa
